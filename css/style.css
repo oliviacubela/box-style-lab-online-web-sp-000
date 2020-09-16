@@ -5,7 +5,15 @@ body, html {
   margin: 0 auto;
   display: block;
   text-align: center;
+  /*background-image: image("white-wood.jpg");*/
 }
+/*<head>
+<style>
+body {
+  background-image: url("paper.gif");
+}
+</style>
+</head>*/
 
 .container, h1 {
   width: 80%;
@@ -30,10 +38,14 @@ h4 {
 }
 
 .indifferent {
-  background-color: #dddd22;
+  border: 1px solid #d6de13;
+  box-shadow: -1px 1px #d6de13, -2px 2px #d6de13, -3px 3px #d6de13, -4px 4px #d6de13, -5px 5px #d6de13;
+  background-color: #f5f542;
 }
 
 .dubious {
+  border: 1px solid #9e1010;
+  box-shadow: -1px 1px #9e1010, -2px 2px #9e1010, -3px 3px #9e1010, -4px 4px #9e1010, -5px 5px #9e1010;
   background-color: #dd4444;
 }
 
